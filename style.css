@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Rubik', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* NAV */
+nav{
+    width: 65%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav .logosup img{
+    width: 80%;
+}
+nav li{
+    margin-right: 20px;
+    
+}
+nav li a{
+    color: black;
+}
+
+#intro{
+    min-height: 100vh;
+}
+
+/* INTRO */
+.intro-title{
+    font-size: 60px;
+}
+.intro-subtitle{
+    font-size: 20px;
+}
+
+/* SECTION */
+.card-1{
+    margin: 0px 15px 0px 15px;
+    border-radius: 5%;
+    padding: 65px 20px 60px 20px;
+    background-color: white;
+    color: black;
+    /* position: relative; */
+    bottom: 200px;
+    box-shadow: 0px 40px 40px 0px rgba(27, 24, 25, 0.04);
+}
+.cont-card{
+    position: relative;
+    top:-150px;
+}
+.card-1:hover{
+    background-color: black;
+    color: white;
+}
+.card-1 i{
+    font-size: 30px;
+}
+h4, h2{
+    /* font-weight: 400; */
+    margin: 10px 0 20px;
+}
+
+/* SECTION 3 */
+ul{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.li-2{ 
+    
+    font-size: 12px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding: 0 5px;
+    text-transform: uppercase;
+    position: relative;
+}
+.li-2 a{
+    text-decoration: none;
+    color: #282828;
+}
+
+/* IMAGENES */
+.boton{
+    margin: 150px;
+    color: #111111;
+    border: 1px solid #111111;
+    padding: 1px 45px 0 45px;
+    line-height: 50px;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+}
+.boton:hover{
+    background-color: #111111;
+    color: white;
+}
+.cont-card-2{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.card-2{
+    background-color: white;
+    margin: 0px 15px 0px 15px;
+    padding: 65px 20px 60px 20px;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.card-2 h5{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.testimonial{
+    padding-top: 75px;
+}
+
+.card-3{
+    margin: 15px;
+}
+.card-3 p{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.cont-foot{
+    width: 75%;
+}
+.sec-foot{
+    margin: 75px 30px 60px 30px;
+   
+}
+footer p{
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #5d5d5d;
+    margin-top: 10px;
+}
+footer li{
+    margin: 10px 0px 10px 0px;
+    
+}
+.end{
+    background-color: #1d1d1d;
+    color: #ababab;
+    padding: 0;
+    width: 100%;
+}
+.end p{
+  margin-top: 0;
+  color: #ababab;
+}
+.cont-end{
+    width: 60%;
+}
+.cont-end a{
+    margin-right: 25px;
+    color: #ababab;
+}
+.cont-end a:hover{
+    
+    color: white;
+}
